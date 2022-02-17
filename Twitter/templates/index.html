@@ -1,0 +1,54 @@
+<head>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:600,400' rel='stylesheet' type='text/css'>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="../static/css/style.css">
+  <link rel="stylesheet" href="../static/css/loading.css">
+  <script type="text/javascript" src="../static/js/script.js"></script>
+  <script type="text/javascript">// <![CDATA[
+        function loading(){
+            $("#loading").show();
+            $("#content").hide();
+        }
+// ]]></script>
+</head>
+
+
+<section id="page-container">
+  <div id="loading">
+    <div class="loader">
+      <h1> Loading </h1>
+      <div class="b1"></div>
+      <div class="b2"></div>
+      <div class="b3"></div>
+    </div>
+  </div>
+<div class="contain" id="content">
+  <div class="iphone-container">
+    <div id="iphone-top-tab"></div>
+    <div class="iphone-header">
+      <div class="iphone-head-dot"></div>
+      <div class="iphone-head-tab"></div>
+    </div>
+
+    <div class="iphone-left-tab_L"></div>
+    <div class="iphone-left-tab_S tab-one"></div>
+    <div class="iphone-left-tab_S tab-two"></div>
+    <div class="iphone-screen">
+      <img src="https://www.danoneinstitute.org/wp-content/uploads/2020/06/logo-rond-twitter.png"/>
+    </div>
+
+    <div class="iphone-footer">
+      <div class="iphone-footer-ring"></div>
+    </div>
+  </div>
+  <form class="flex-container" action="#" method="post">
+  <input role="input" name="name" placeholder="Username"/>
+  <button type="submit" onclick="loading();">Build a map!</button>
+    {% if error %}
+  <div class="error">{{error}}</div>
+  {% endif %}
+</form>
+</div>
+</section>

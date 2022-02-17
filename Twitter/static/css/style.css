@@ -1,0 +1,149 @@
+body {
+  margin: 0;
+  height: 100vh;
+  background-color: #9B59B6;
+}
+#page-container {
+  margin: 0 auto;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contain {
+  width: 660px;
+  max-width: 660px;
+}
+/* iPhone */
+.iphone-container {
+  top: 20px;
+  width: 180px;
+  height: 350px;
+  float: right;
+  margin: 0 auto;
+  border-radius: 22px;
+  position: relative;
+  background-color: #fff;
+}
+.iphone-screen {
+  width: 90%;
+  height: 70%;
+  margin: 0 auto;
+  background: rgb(55, 55, 55);
+  position: relative;
+  overflow: hidden;
+}
+.iphone-screen img {
+  top: 40px;
+  left: 6px;
+  width: 150px;
+  position: relative;
+}
+.iphone-header,
+.iphone-footer {
+  height: 50px;
+  position: relative;
+}
+#iphone-top-tab {
+  top: -4px;
+  right: 35px;
+  width: 40px;
+  height: 10px;
+  float: right;
+  border-radius: 7px;
+  position: relative;
+  background-color: #fff;
+}
+.iphone-left-tab_L {
+  left: -4px;
+  width: 8px;
+  height: 25px;
+  border-radius: 7px;
+  position: absolute;
+  background-color: #fff;
+}
+.iphone-left-tab_S {
+  left: -4px;
+  width: 8px;
+  height: 20px;
+  border-radius: 7px;
+  position: absolute;
+  background-color: #fff;
+}
+.tab-one {
+  top: 90px;
+}
+.tab-two {
+  top: 125px;
+}
+
+.iphone-head-dot {
+  top: 12px;
+  width: 8px;
+  height: 8px;
+  margin: 0 auto;
+  border-radius: 50%;
+  position: relative;
+  background-color: #ccc;
+}
+.iphone-head-tab {
+  top: 20px;
+  width: 30px;
+  height: 6px;
+  margin: 0 auto;
+  position: relative;
+  border-radius: 20px;
+  background-color: #ccc;
+}
+.iphone-footer-ring {
+  top: 5px;
+  width: 40px;
+  height: 40px;
+  margin: 0 auto;
+  border-radius: 50%;
+  position: relative;
+  border: 2px solid #ccc;
+}
+/* Form CSS */
+form {
+  top: 100px;
+  color: #fff;
+  width: 300px;
+  min-height: 110px;
+  float: left;
+  padding: 10px;
+  background: #edeff6;
+  border-radius: 5px;
+  font-weight: bold;
+  position: relative;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+}
+input,
+button{
+  width: 90%;
+  height: 30px;
+  display: block;
+  margin: 15px auto;
+  border-radius: 5px;
+  border-color: transparent;
+  font-weight: bold;
+  font-family: 'Open Sans', sans-serif;
+}
+.error {
+  color: crimson;
+  font-weight: bold;
+  font-family: 'Open Sans', sans-serif;
+  margin: 0px 15px 5px 15px;
+}
+input {
+  text-indent: 20px;
+}
+button {
+  color: #fff;
+  background-color: #8E44AD;
+}
+input:focus {
+  outline-color: #8E44AD;
+}

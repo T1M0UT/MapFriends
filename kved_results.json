@@ -1,0 +1,19 @@
+{
+      "name": "Морське рибальство",
+      "type": "class",
+      "parent": {
+            "name": "Рибальство",
+            "type": "group",
+            "num_children": 2,
+            "parent": {
+                  "name": "Рибне господарство",
+                  "type": "division",
+                  "num_children": 2,
+                  "parent": {
+                        "name": "Сільське господарство, лісове господарство та рибне господарство",
+                        "type": "section",
+                        "num_children": 3
+                  }
+            }
+      }
+}
