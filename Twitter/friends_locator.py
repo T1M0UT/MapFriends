@@ -17,7 +17,7 @@ import ssl
 
 # https://apps.twitter.com/
 # Create App and get the four strings, put them in hidden.py
-@lru_cache(maxsize=128)
+@lru_cache(maxsize=256)
 def search(user: str):
     TWITTER_URL = 'https://api.twitter.com/1.1/friends/list.json'
 
